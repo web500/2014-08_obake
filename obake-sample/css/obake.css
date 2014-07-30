@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/* アタリのおばけを１ぴきかくす */
+img#obake-hihihi {
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	top: 228px;
+	left: 489px;
+	-webkit-filter: grayscale(1); /* Webkit */
+	filter: gray; /* IE6-9 */
+	filter: grayscale(1); /* W3C */
+}
+
+/* ハズレのおばけを１０ぴきかくす */
+img#obake-01 {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 68px;
+	left: 300px;
+}
+img#obake-02 {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 110px;
+	left: 409px;
+}
+img#obake-03 {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 185px;
+	left: 42px;
+}
+img#obake-04 {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 170px;
+	left: 230px;
+}
+img#obake-05 {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 162px;
+	left: 490px;
+}
+img#obake-06 {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 200px;
+	left: 300px;
+}
+img#obake-07 {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 595px;
+	left: 468px;
+}
+img#obake-08 {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 270px;
+	left: 120px;
+}
+img#obake-09 {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+img#obake-10 {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 660px;
+	left: 890px;
+}
+/* しあげに、あかいろの「わくせん」をはずそう */
+img {
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	top: 20px;
+	left: 300px;
+	border: 0px #ff0000 solid;
+}

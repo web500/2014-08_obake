@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* フルードイメージ */
+img	{
+	max-width: 100%;
+	height: auto;
+}
+	
+body {
+	margin: 20px 10px;
+	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+	color: #333;
+}
+header, aside, article, section, figure {
+	display: block;
+}
+
+#wrap {
+	width: 900px;
+	margin: 0 auto;
+}
+
+/* ヘッダー */
+#site {
+	float: left;
+	margin: 10px 0 10px;
+	width: 100%;
+	max-width: 680px;
+}
+#site h1 {
+	padding: 20px 0px 0px 0px;
+	line-height: 1.1;
+	color: #3366cc;
+	font-family: 'Press Start 2P', cursive, Helvetica, Arial, sans-serif;
+	font-size: 44px;
+	font-weight: 900;
+}
+#site h1 span {
+	color: #ff3300;
+}
+/* ヘッダー画像 */
+#headerimg img {
+	float: right;
+	width: 200px;
+	vertical-align: bottom;
+}
+
+/* 本文 article */
+article {
+	padding: 30px 0px 40px 0px;
+	clear: both;
+}
+article h2 {
+	text-align: center;
+	color: #ccc;
+	font-size: 50px;
+	padding: 16px;
+	border: 7px #fff dashed;
+	background-color: #333;
+}
+section {
+	float: left;
+	margin: 30px 40px 30px 40px;
+}
+
+/* フッター */
+footer {
+	clear: both;
+	font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
+	color: #777;
+	padding: 30px 10px 20px;
+}
+footer p {
+	margin-bottom: 4px;
+}
+footer p a {
+	font-size: 80%;
+	color: #888;
+}
+footer small {
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+}
